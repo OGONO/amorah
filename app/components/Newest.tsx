@@ -32,9 +32,7 @@ export default async function Newest() {
 
           <Link className="text-primary flex items-center gap-x-1" href="/all">
             
-            <span>
-              <ArrowRight />
-            </span>
+            
           </Link>
         </div>
 
