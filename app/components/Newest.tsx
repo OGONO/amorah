@@ -48,10 +48,11 @@ export default async function Newest() {
                   className="w-full h-full object-cover object-center lg:h-full lg:w-full"
                   width={300}
                   height={300}
-                />
-                <Link href={`/product/${product.slug}`}>
+                  <Link href={`/product/${product.slug}`}>
                       {product.name}
                   </Link>
+                />
+                
               </div>
 
               <div className="mt-4 flex justify-between">
