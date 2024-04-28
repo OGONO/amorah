@@ -42,7 +42,7 @@ export default async function Newest() {
               
               <div className="aspect-square w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:h-80">
                 <Link href={`/product/${product.slug}`}>
-                      {product.name}
+                     
                   </Link>
                 <Image
                   src={product.imageUrl}
