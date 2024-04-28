@@ -41,7 +41,7 @@ export default async function Newest() {
             <div key={product._id} className="group relative">
               
               <div className="aspect-square w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:h-80">
-                <Link href={`/product/${slug.current}`}>
+                <Link href={`/product/${product.slug}`}>
                 <Image 
                   src={product.imageUrl}
                   alt="Product image"
@@ -51,7 +51,7 @@ export default async function Newest() {
                   
               
                 />
-                
+                </Link>
               </div>
 
               <div className="mt-4 flex justify-between">
