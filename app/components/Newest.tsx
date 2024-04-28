@@ -41,6 +41,7 @@ export default async function Newest() {
             <div key={product._id} className="group relative">
               <div className="aspect-square w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:h-80">
                 <Image
+                  <Link href={`/product/${product.slug}`}>
                   src={product.imageUrl}
                   alt="Product image"
                   className="w-full h-full object-cover object-center lg:h-full lg:w-full"
