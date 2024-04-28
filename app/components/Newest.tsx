@@ -1,4 +1,4 @@
-byimport Link from "next/link";
+import Link from "next/link";
 import { simplifiedProduct } from "../interface";
 import { client } from "../lib/sanity";
 import { ArrowRight } from "lucide-react";
